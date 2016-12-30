@@ -24,3 +24,5 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/samsung/hlte-common/hlte-common-vendor-blobs.mk)
+
+$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
